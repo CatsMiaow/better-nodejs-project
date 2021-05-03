@@ -4,24 +4,25 @@ Ways for a better Node.js backend project
 
 ## TypeScript
 
-For preventing errors in your code with static analysis.
+For preventing errors in your code with static analysis
 
-- <https://www.typescriptlang.org/docs/handbook/intro.html>
+- [TypeScript from scratch](https://www.typescriptlang.org/docs/handbook/typescript-from-scratch.html)
+- [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
 
 ## NestJS Framework
 
-For extensible architectural structures and production-ready functionality.
+For extensible architectural structures and production-ready functionality
 
 - <https://docs.nestjs.com/#introduction>
 - <https://discord.gg/nestjs>
 
 ## TypeScript ESLint
 
-For correcting bad code and writing consistent code.
+For correcting bad code and writing consistent code
 
 - <https://typescript-eslint.io>
 
-It is recommended to apply the known extended presets in addition to the basic rules.
+It is recommended to apply the known extended presets in addition to the basic rules
 
 - [eslint-config-airbnb-typescript](https://github.com/iamturns/eslint-config-airbnb-typescript)
   - [eslint-config-airbnb](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb) with TypeScript support
@@ -30,7 +31,7 @@ It is recommended to apply the known extended presets in addition to the basic r
 
 ## Conventional Commits
 
-For a consistent commit message.
+For a consistent commit message
 
 - <https://www.conventionalcommits.org>
 - <https://commitlint.js.org>
