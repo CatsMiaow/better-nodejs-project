@@ -1,6 +1,6 @@
 {
   "name": "better-nodejs-project",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Ways for a better Node.js backend project",
   "main": "dist/app",
   "scripts": {
