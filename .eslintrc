@@ -1,0 +1,23 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "tsconfigRootDir": ".",
+    "project": "tsconfig.json",
+    "sourceType": "module"
+  },
+  "plugins": ["@typescript-eslint", "sonarjs", "unicorn"],
+  "extends": [
+    "eslint:recommended",
+    "airbnb-typescript/base",
+    "plugin:unicorn/recommended",
+    "plugin:sonarjs/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/recommended-requiring-type-checking"
+  ],
+  "rules": { // Turn off rules you don't like.
+    "class-methods-use-this": "off",
+    "import/no-default-export": "error",
+    "import/prefer-default-export": "off"
+  }
+}
