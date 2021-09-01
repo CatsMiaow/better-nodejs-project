@@ -9,6 +9,7 @@
   "plugins": ["@typescript-eslint", "sonarjs", "unicorn"],
   "extends": [
     "eslint:recommended",
+    "airbnb-base",
     "airbnb-typescript/base",
     "plugin:unicorn/recommended",
     "plugin:sonarjs/recommended",
