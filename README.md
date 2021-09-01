@@ -31,7 +31,7 @@ It is recommended to apply the known extended presets in addition to the basic r
 
 ## Conventional Commits
 
-For a consistent commit message
+For consistent commit message
 
 - <https://www.conventionalcommits.org>
 - <https://commitlint.js.org>
