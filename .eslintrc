@@ -16,9 +16,11 @@
     "plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/recommended-requiring-type-checking"
   ],
+  "ignorePatterns": ["**/node_modules/**", "dist/**"],
   "rules": { // Turn off rules you don't like.
     "class-methods-use-this": "off",
     "import/no-default-export": "error",
-    "import/prefer-default-export": "off"
+    "import/prefer-default-export": "off",
+    "@typescript-eslint/no-floating-promises": ["error", { "ignoreIIFE": true, "ignoreVoid": true }]
   }
 }
