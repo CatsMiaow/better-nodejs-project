@@ -2,7 +2,11 @@
   "name": "better-nodejs-project",
   "version": "0.0.0",
   "description": "Ways for a better Node.js backend project",
+  "type": "module",
   "main": "dist/app",
+  "engines": {
+    "node": ">=16"
+  },
   "scripts": {
     "lint": "eslint --ext .ts .",
     "build": "del-cli dist && nest build",
