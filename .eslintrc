@@ -21,6 +21,7 @@
     "class-methods-use-this": "off",
     "import/no-default-export": "error",
     "import/prefer-default-export": "off",
-    "@typescript-eslint/no-floating-promises": ["error", { "ignoreIIFE": true, "ignoreVoid": true }]
+    "@typescript-eslint/no-floating-promises": ["error", { "ignoreIIFE": true, "ignoreVoid": true }],
+    "unicorn/prefer-top-level-await": "off"
   }
 }
