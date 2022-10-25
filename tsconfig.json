@@ -2,10 +2,10 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {},
+    "target": "ES2020",
     "outDir": "dist",
-    "target": "ES2021",
-    "module": "Node16",
-    "moduleResolution": "Node16",
+    "module": "commonjs",
+    "moduleResolution": "node",
     "incremental": true,
     "declaration": true,
     "newLine": "lf",
