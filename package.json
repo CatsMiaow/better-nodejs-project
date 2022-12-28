@@ -5,38 +5,37 @@
   "main": "dist/app",
   "scripts": {
     "lint": "eslint --ext .ts .",
-    "build": "del-cli dist && nest build",
+    "build": "nest build",
     "prepare": "husky install",
     "prestart": "npm run lint && npm run build",
     "start": "node dist/app",
-    "start:dev": "del-cli dist && nest start --watch",
-    "start:debug": "del-cli dist && nest start --debug --watch",
+    "start:dev": "nest start --watch",
+    "start:debug": "nest start --debug --watch",
     "release": "standard-version"
   },
   "dependencies": {
-    "@nestjs/common": "^9.1.6",
-    "@nestjs/core": "^9.1.6",
-    "@nestjs/platform-express": "^9.1.6",
+    "@nestjs/common": "^9.2.1",
+    "@nestjs/core": "^9.2.1",
+    "@nestjs/platform-express": "^9.2.1",
     "reflect-metadata": "^0.1.13",
-    "rxjs": "^7.5.7"
+    "rxjs": "^7.8.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.1.2",
-    "@commitlint/config-conventional": "^17.1.0",
-    "@nestjs/cli": "^9.1.4",
-    "@types/node": "^18.11.5",
-    "@typescript-eslint/eslint-plugin": "^5.41.0",
-    "@typescript-eslint/parser": "^5.41.0",
-    "del-cli": "^5.0.0",
-    "eslint": "^8.26.0",
+    "@commitlint/cli": "^17.3.0",
+    "@commitlint/config-conventional": "^17.3.0",
+    "@nestjs/cli": "^9.1.7",
+    "@types/node": "^18.11.18",
+    "@typescript-eslint/eslint-plugin": "^5.47.1",
+    "@typescript-eslint/parser": "^5.47.1",
+    "eslint": "^8.30.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-airbnb-typescript": "^17.0.0",
     "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-sonarjs": "^0.16.0",
-    "eslint-plugin-unicorn": "^44.0.2",
-    "husky": "^8.0.1",
+    "eslint-plugin-sonarjs": "^0.17.0",
+    "eslint-plugin-unicorn": "^45.0.2",
+    "husky": "^8.0.2",
     "standard-version": "^9.5.0",
-    "typescript": "^4.8.4"
+    "typescript": "^4.9.4"
   },
   "commitlint": {
     "extends": [
