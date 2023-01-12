@@ -37,11 +37,6 @@
     "standard-version": "^9.5.0",
     "typescript": "^4.9.4"
   },
-  "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ]
-  },
   "author": "CatsMiaow",
   "license": "UNLICENSED"
 }
