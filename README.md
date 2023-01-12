@@ -43,6 +43,13 @@ For automatic versioning and changelog based on consistent commit messages
 - [standard-version](https://github.com/conventional-changelog/standard-version)
 - If you publish the project as a package, use [semantic-release](https://github.com/semantic-release/semantic-release).
 
+## Husky - Git hooks
+
+For consistent work to avoid mistakes before committing
+
+- <https://typicode.github.io/husky>
+- [commitlint](https://commitlint.js.org), [lint-staged](https://www.npmjs.com/package/lint-staged), [check-dependencies](https://www.npmjs.com/package/check-dependencies), etc.
+
 ### Example
 
 See the source [code](package.json) of this repository
