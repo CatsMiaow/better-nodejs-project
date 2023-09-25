@@ -2,26 +2,30 @@
   "root": true,
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
+    "project": true,
     "tsconfigRootDir": ".",
-    "project": "tsconfig.json",
     "sourceType": "module"
   },
-  "plugins": ["@typescript-eslint", "sonarjs", "unicorn"],
+  "plugins": ["@typescript-eslint", "sonarjs", "unicorn", "prettier"],
   "extends": [
     "eslint:recommended",
     "airbnb-base",
     "airbnb-typescript/base",
     "plugin:unicorn/recommended",
     "plugin:sonarjs/recommended",
-    "plugin:@typescript-eslint/recommended",
-    "plugin:@typescript-eslint/recommended-requiring-type-checking"
+    "plugin:@typescript-eslint/strict-type-checked",
+    "plugin:@typescript-eslint/stylistic-type-checked",
+    "plugin:prettier/recommended"
   ],
   "ignorePatterns": ["**/node_modules/**", "dist/**"],
-  "rules": { // Turn off rules you don't like.
+  "rules": {
+    // Turn off rules you don't like.
     "class-methods-use-this": "off",
+
     "import/no-default-export": "error",
     "import/prefer-default-export": "off",
-    "@typescript-eslint/no-floating-promises": ["error", { "ignoreIIFE": true, "ignoreVoid": true }],
-    "unicorn/prefer-top-level-await": "off"
+
+    "@typescript-eslint/no-extraneous-class": "off",
+    "@typescript-eslint/no-floating-promises": ["error", { "ignoreIIFE": true, "ignoreVoid": true }]
   }
 }
