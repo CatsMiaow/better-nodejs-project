@@ -4,7 +4,7 @@ Ways for a better Node.js backend project
 
 ## ECMAScript Modules (ESM)
 
-For modern, future-proof Node.js development, adopting ESM over CommonJS provides standardized module syntax, improved compatibility across environments, and enhanced tooling support
+For modern, future-proof Node.js development, using ESM instead of CommonJS can provide benefits such as Top-level await, clearer handling of Circular dependency, and more
 
 - [Node.js Docs: ECMAScript modules](https://nodejs.org/docs/latest/api/esm.html)
 - [MDN Docs: JavaScript modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
