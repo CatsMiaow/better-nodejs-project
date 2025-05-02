@@ -2,6 +2,13 @@
 
 Ways for a better Node.js backend project
 
+## ECMAScript Modules (ESM)
+
+For modern, future-proof Node.js development, adopting ESM over CommonJS provides standardized module syntax, improved compatibility across environments, and enhanced tooling support
+
+- [Node.js Docs: ECMAScript modules](https://nodejs.org/docs/latest/api/esm.html)
+- [MDN Docs: JavaScript modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
+
 ## TypeScript
 
 For preventing errors in your code with static analysis
@@ -22,12 +29,13 @@ For correcting bad code and writing consistent code
 
 - <https://typescript-eslint.io>
 
-It is recommended to apply the known extended presets in addition to the basic rules
+It is recommended to apply the known extended presets in addition to the basic rules \
+The following rules are available in flat config in eslint v9
 
-- [eslint-config-airbnb-typescript](https://github.com/iamturns/eslint-config-airbnb-typescript)
-  - [eslint-config-airbnb](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb) with TypeScript support
-- [eslint-plugin-sonarjs](https://github.com/SonarSource/eslint-plugin-sonarjs)
+- [eslint-plugin-sonarjs](https://github.com/SonarSource/SonarJS/blob/master/packages/jsts/src/rules/README.md)
 - [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)
+- [eslint-plugin-github](https://github.com/github/eslint-plugin-github)
+- [eslint-config-love](https://github.com/mightyiam/eslint-config-love)
 
 ## Conventional Commits
 
@@ -40,8 +48,12 @@ For consistent commit message
 
 For automatic versioning and changelog based on consistent commit messages
 
-- [standard-version](https://github.com/conventional-changelog/standard-version)
-- If you publish the project as a package, use [semantic-release](https://github.com/semantic-release/semantic-release).
+- [Automatically Version with Conventional Commits](https://nx.dev/recipes/nx-release/automatically-version-with-conventional-commits)
+  - [nx release version](https://nx.dev/nx-api/nx/documents/release#version)
+  - [nx release changelog](https://nx.dev/nx-api/nx/documents/release#changelog)
+  - If you publish the project as a package, use [nx release publish](https://nx.dev/nx-api/nx/documents/release#publish).
+- [Manage Releases](<https://nx.dev/features/manage-releases>)
+  - [Get Started with Nx Release](https://nx.dev/recipes/nx-release/get-started-with-nx-release)
 
 ## Husky - Git hooks
 
