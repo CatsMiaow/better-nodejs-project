@@ -32,6 +32,7 @@ For correcting bad code and writing consistent code
 It is recommended to apply the known extended presets in addition to the basic rules \
 The following rules are available in flat config in eslint v9
 
+- [neostandard](https://github.com/neostandard/neostandard)
 - [eslint-plugin-sonarjs](https://github.com/SonarSource/SonarJS/blob/master/packages/jsts/src/rules/README.md)
 - [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)
 - [eslint-plugin-github](https://github.com/github/eslint-plugin-github)
@@ -48,12 +49,12 @@ For consistent commit message
 
 For automatic versioning and changelog based on consistent commit messages
 
-- [Automatically Version with Conventional Commits](https://nx.dev/recipes/nx-release/automatically-version-with-conventional-commits)
-  - [nx release version](https://nx.dev/nx-api/nx/documents/release#version)
-  - [nx release changelog](https://nx.dev/nx-api/nx/documents/release#changelog)
-  - If you publish the project as a package, use [nx release publish](https://nx.dev/nx-api/nx/documents/release#publish).
-- [Manage Releases](<https://nx.dev/features/manage-releases>)
-  - [Get Started with Nx Release](https://nx.dev/recipes/nx-release/get-started-with-nx-release)
+- [Automatically Version with Conventional Commits](https://nx.dev/docs/guides/nx-release/automatically-version-with-conventional-commits)
+  - [nx release version](https://nx.dev/docs/reference/nx-commands#nx-release-version)
+  - [nx release changelog](https://nx.dev/docs/reference/nx-commands#nx-release-changelog)
+  - If you publish the project as a package, use [nx release publish](https://nx.dev/docs/reference/nx-commands#nx-release-publish).
+- [Manage Releases](<https://nx.dev/docs/features/manage-releases>)
+  - [Release TypeScript/JavaScript Packages to NPM](https://nx.dev/docs/guides/nx-release/release-npm-packages)
 
 ## Husky - Git hooks
 
