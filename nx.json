@@ -12,9 +12,7 @@
   "release": {
     "version": {
       "conventionalCommits": true,
-      "generatorOptions": {
-        "fallbackCurrentVersionResolver": "disk"
-      }
+      "fallbackCurrentVersionResolver": "disk"
     },
     "changelog": {
       "automaticFromRef": true
@@ -29,7 +27,7 @@
         },
         "build": {
           "targetName": "build",
-          "configName": "tsconfig.lib.json",
+          "configName": "tsconfig.build.json",
           "buildDepsName": "build-deps",
           "watchDepsName": "watch-deps"
         }

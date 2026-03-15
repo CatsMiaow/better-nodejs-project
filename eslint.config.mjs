@@ -1,12 +1,13 @@
 /* eslint-disable import/no-default-export */
 import eslint from '@eslint/js';
+import { defineConfig } from 'eslint/config';
 import importPlugin from 'eslint-plugin-import';
 import prettierRecommended from 'eslint-plugin-prettier/recommended';
 import sonarjs from 'eslint-plugin-sonarjs';
 import unicorn from 'eslint-plugin-unicorn';
-import tseslint, { configs, plugin } from 'typescript-eslint';
+import { configs, plugin } from 'typescript-eslint';
 
-export default tseslint.config(
+export default defineConfig(
   eslint.configs.recommended,
   configs.recommendedTypeChecked,
   configs.strictTypeChecked,
